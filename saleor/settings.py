@@ -507,3 +507,5 @@ if SENTRY_DSN:
     RAVEN_CONFIG = {
         'dsn': SENTRY_DSN,
         'release': __version__}
+    
+from saleor.local_settings import *
